@@ -37,4 +37,3 @@ if (salario <= 280) {
 }
 
 console.log(`Atual salário: ${salario.toLocaleString("pt-br", {style:"currency",currency:'BRL'})}\nPercentual de reajuste: ${porcentagem}%\nValor do aumento: ${aumento.toLocaleString("pt-br", {style:"currency",currency:'BRL'})}\nNovo salário: ${salarioReajustado.toLocaleString("pt-br", {style:"currency",currency:'BRL'})}`);
-bre
